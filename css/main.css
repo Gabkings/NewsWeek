@@ -195,13 +195,13 @@
 }
 
 .debate-2 {
-  border-top: 4px #1c87fb solid;
-  border-bottom: 3px double rgb(156, 156, 156);
+    border-top: 4px #1c87fb solid;
+    border-bottom: 3px double rgb(156, 156, 156);
 }
 
 .debate-image {
-  width: 95px;
-  height: 95px;
+    width: 65px;
+    height: 65px;
 }
 
 .debate-text {
