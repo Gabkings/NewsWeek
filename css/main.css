@@ -23,6 +23,10 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.navbar-3 a{
+    border: none;
+}
+
 .pandemic-desc,
 .opinion-writer,
 .footer-subscribe-desc,
@@ -109,9 +113,21 @@
   color: rgb(184, 184, 184);
 }
 
+.navbar-3 .navlinks::after {
+    content: " ";
+}
+
+.navbar-3 ul:not(:first-child) {
+    color: #666;
+}
+
 .search {
   width: 4rem;
   border: none;
+}
+
+.image-container{
+    position: relative;
 }
 
 .features-img-link {
@@ -119,6 +135,7 @@
   left: 0;
   opacity: 0.9;
   color: #f72210;
+  width: 100px;
 }
 
 .features-img-link:hover {
