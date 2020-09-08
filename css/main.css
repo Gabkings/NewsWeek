@@ -310,6 +310,12 @@ ul {
   font-weight: bold;
 }
 
+.travel{
+  background-color: #c2d4d7;
+  color: black;
+  font-size: 14px;
+}
+
 .signup-link:hover {
   text-decoration: none;
 }
