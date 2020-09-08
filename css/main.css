@@ -23,8 +23,8 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.navbar-3 a{
-    border: none;
+.navbar-3 a {
+  border: none;
 }
 
 .pandemic-desc,
@@ -114,11 +114,11 @@
 }
 
 .navbar-3 .navlinks::after {
-    content: " ";
+  content: " ";
 }
 
 .navbar-3 ul:not(:first-child) {
-    color: #666;
+  color: #666;
 }
 
 .search {
@@ -126,15 +126,26 @@
   border: none;
 }
 
-.row{
+.row {
   margin-right: -15px;
-    margin-left: -15px;
+  margin-left: -15px;
 }
 
-.image-container{
-    position: relative;
-    padding: 0%;
-    margin: 0%;
+.c-vs {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #f4f5f6;
+  margin-top: -18px;
+  z-index: 2;
+  padding-top: 5px;
+}
+
+.image-container {
+  position: relative;
+  padding: 0%;
+  margin: 0%;
 }
 
 .features-img-link {
@@ -201,13 +212,13 @@
 }
 
 .debate-2 {
-    border-top: 4px #1c87fb solid;
-    border-bottom: 3px double rgb(156, 156, 156);
+  border-top: 4px #1c87fb solid;
+  border-bottom: 3px double rgb(156, 156, 156);
 }
 
 .debate-image {
-    width: 65px;
-    height: 65px;
+  width: 65px;
+  height: 65px;
 }
 
 .debate-text {
@@ -413,6 +424,11 @@
   text-decoration: none;
 }
 
+.but-sub {
+  color: black;
+  font-weight: bold;
+}
+
 .category-title:hover {
   text-decoration: none;
   color: #f72210;
@@ -537,7 +553,8 @@ ul {
   display: block;
   position: relative;
   height: 500px;
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center / cover;
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5")
+    no-repeat scroll center / cover;
   padding: 60px 0;
 }
 
