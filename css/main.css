@@ -126,8 +126,15 @@
   border: none;
 }
 
+.row{
+  margin-right: -15px;
+    margin-left: -15px;
+}
+
 .image-container{
     position: relative;
+    padding: 0%;
+    margin: 0%;
 }
 
 .features-img-link {
@@ -135,7 +142,6 @@
   left: 0;
   opacity: 0.9;
   color: #f72210;
-  width: 100px;
 }
 
 .features-img-link:hover {
