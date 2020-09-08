@@ -1,0 +1,24 @@
+{
+  "name": "NewsWeek",
+  "version": "1.0.0",
+  "description": "Building a replica of the news site (Newsweek)[https://www.newsweek.com/] using the Bootstrap framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabkings/NewsWeek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabkings/NewsWeek/issues"
+  },
+  "homepage": "https://github.com/Gabkings/NewsWeek#readme",
+  "devDependencies": {
+    "stylelint": "^13.7.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
