@@ -310,6 +310,10 @@ ul {
   font-weight: bold;
 }
 
+.card {
+  border: none;
+}
+
 .travel {
   background-color: #c2d4d7;
   color: black;
