@@ -5,6 +5,8 @@
 }
 
 .main {
+  margin: auto;
+  padding: 0;
   max-width: 1310px;
 }
 
@@ -534,6 +536,10 @@ ul {
     display: inline;
   }
 
+  .navbar-3 {
+    display: none;
+  }
+
   .weather,
   .location {
     display: inline;
@@ -614,9 +620,9 @@ ul {
 
 @media (min-width: 992px) {
   .fa-bars,
-  .front-navbar-logo {
+  /* .front-navbar-logo {
     display: none;
-  }
+  } */
 
   .top-navbar-date,
   .center-navbar-logo {
