@@ -483,9 +483,15 @@ ul {
 
 .footer-newsweek {
   font-family: "Alegreya", serif;
-  font-size: 48px;
+  font-size: 20px;
   color: #f72210;
   font-weight: 800;
+
+}
+
+.footer-newsweek img{
+  height: 48px;
+  color: #f72210;
 }
 
 .copyright {
@@ -531,38 +537,6 @@ ul {
   font-size: 15px;
 }
 
-@media (min-width: 576px) {
-  .greater-than-navbar {
-    display: inline;
-  }
-
-  .navbar-3 {
-    display: none;
-  }
-
-  .weather,
-  .location {
-    display: inline;
-  }
-
-  .magazine-first-img,
-  .magazine-other-img {
-    max-width: 100%;
-  }
-
-  .magazine-first-link {
-    width: 100%;
-  }
-
-  .footer-subscribe-container {
-    background-color: #f4f5f6;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 740px;
-    max-height: 450px;
-  }
-}
-
 .newsletter-img {
   content: "";
   width: 100%;
@@ -571,51 +545,6 @@ ul {
   height: 500px;
   background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center / cover;
   padding: 60px 0;
-}
-
-@media (min-width: 768px) {
-  .footer-subscribe-container {
-    flex-direction: row;
-    max-width: 820px;
-    max-height: 302px;
-  }
-
-  .footer-newsletter-container {
-    max-width: 416px;
-    max-height: 302px;
-  }
-
-  .heros-of-panedemic {
-    display: block;
-  }
-
-  .newsletter-img {
-    width: 190px;
-    display: block;
-    position: relative;
-    height: 200px;
-  }
-
-  .newsletter-desc {
-    position: relative;
-    width: 226px;
-    height: 200px;
-  }
-
-  .footer-social {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .footer-social-copyright {
-    flex-direction: row;
-    align-items: flex-end;
-  }
-
-  .copyright {
-    padding-left: 15px;
-  }
 }
 
 @media (min-width: 992px) {
@@ -646,5 +575,81 @@ ul {
     display: block;
     position: relative;
     height: 302px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-subscribe-container {
+    flex-direction: row;
+    max-width: 820px;
+    max-height: 302px;
+  }
+
+  .footer-newsletter-container {
+    max-width: 416px;
+    max-height: 302px;
+  }
+
+  .heros-of-panedemic {
+    display: block;
+  }
+
+  .newsletter-img {
+    width: 190px;
+    display: block;
+    position: relative;
+  }
+
+  .newsletter-desc {
+    position: relative;
+    width: 226px;
+    height: 310px;
+  }
+
+  .footer-social {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-social-copyright {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .copyright {
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 576px) {
+  .greater-than-navbar {
+    display: inline;
+  }
+
+  .navbar-3 {
+    display: none;
+  }
+
+  .weather,
+  .location {
+    display: inline;
+  }
+
+  .magazine-first-img,
+  .magazine-other-img {
+    max-width: 100%;
+  }
+
+  .magazine-first-link {
+    width: 100%;
+  }
+
+  .footer-subscribe-container {
+    background-color: #f4f5f6;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 740px;
+    max-height: 450px;
   }
 }
