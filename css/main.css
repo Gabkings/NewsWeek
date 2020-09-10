@@ -547,11 +547,11 @@ ul {
   padding: 60px 0;
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .fa-bars,
-  /* .front-navbar-logo {
+  .front-navbar-logo {
     display: none;
-  } */
+  }
 
   .top-navbar-date,
   .center-navbar-logo {
@@ -578,7 +578,7 @@ ul {
   }
 }
 
-@media (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   .footer-subscribe-container {
     flex-direction: row;
     max-width: 820px;
@@ -589,7 +589,7 @@ ul {
     max-width: 416px;
     max-height: 302px;
   }
-
+  
   .heros-of-panedemic {
     display: block;
   }
@@ -627,10 +627,6 @@ ul {
     display: inline;
   }
 
-  .navbar-3 {
-    display: none;
-  }
-
   .weather,
   .location {
     display: inline;
@@ -653,3 +649,9 @@ ul {
     max-height: 450px;
   }
 }
+
+@media only screen and (max-width : 800px){
+  .navbar-3 {
+    display: none;
+  }
+} 
