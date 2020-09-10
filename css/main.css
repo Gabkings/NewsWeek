@@ -588,6 +588,7 @@ ul {
     display: block;
   }
 
+
   .newsletter-img {
     width: 190px;
     display: block;
@@ -597,7 +598,6 @@ ul {
   .newsletter-desc {
     position: relative;
     width: 226px;
-    height: 310px;
   }
 
   .footer-social {
