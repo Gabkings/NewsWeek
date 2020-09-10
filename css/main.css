@@ -483,15 +483,9 @@ ul {
 
 .footer-newsweek {
   font-family: "Alegreya", serif;
-  font-size: 20px;
+  font-size: 48px;
   color: #f72210;
   font-weight: 800;
-
-}
-
-.footer-newsweek img{
-  height: 48px;
-  color: #f72210;
 }
 
 .copyright {
@@ -589,7 +583,7 @@ ul {
     max-width: 416px;
     max-height: 302px;
   }
-  
+
   .heros-of-panedemic {
     display: block;
   }
@@ -650,8 +644,8 @@ ul {
   }
 }
 
-@media only screen and (max-width : 800px){
+@media only screen and (max-width: 800px) {
   .navbar-3 {
     display: none;
   }
-} 
+}
