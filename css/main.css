@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-a {
+a, a:hover {
   text-decoration: none;
 }
 
@@ -258,9 +258,6 @@ ul {
   color: rgb(85, 85, 85);
 }
 
-.opinion-title:hover {
-}
-
 .opinion-link {
   color: black;
   line-height: 17px;
@@ -315,10 +312,6 @@ ul {
   background-color: #c2d4d7;
   color: black;
   font-size: 14px;
-}
-
-.signup-link:hover {
-  
 }
 
 .signup-desc:hover {
