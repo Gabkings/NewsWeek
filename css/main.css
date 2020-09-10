@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-a, a:hover {
-  text-decoration: none;
-}
-
 .main {
   margin: auto;
   padding: 0;
@@ -83,8 +79,11 @@ ul {
 
 .top-navbar-signup {
   border: none;
-  color: #f72210;
   margin-left: 2px;
+}
+
+.red-color{
+  color: #f72210;
 }
 
 .right-navbar {
@@ -96,20 +95,22 @@ ul {
 }
 
 .right-navbar-link:last-child:hover {
-  color: #f72210;
+  color: hsl(5, 94%, 52%);
 }
 
 .bg-red {
-  background-color: #f72210;
+  background-color: rgb(247, 34, 16);
 }
 
 .navlinks-links {
+  text-decoration: none;
   color: black;
   font-weight: bold;
 }
 
 .navlinks:hover {
   color: rgb(197, 21, 5);
+  text-decoration: none;
 }
 
 .navlinks::after {
@@ -160,11 +161,11 @@ ul {
   bottom: 0;
   left: 0;
   opacity: 0.9;
-  color: #f72210;
 }
 
 .features-img-link:hover {
-  color: #f72210;
+  text-decoration: none;
+  color: rgb(247, 34, 16);
 }
 
 .font-roboto {
@@ -198,6 +199,7 @@ ul {
 }
 
 .center-img-link:hover {
+  text-decoration: none;
   color: rgb(173, 173, 173);
   background-color: black;
 }
@@ -207,6 +209,7 @@ ul {
 }
 
 .stories-link {
+  text-decoration: none;
   color: black;
   line-height: 20px;
 }
@@ -228,10 +231,12 @@ ul {
 
 .debate-text {
   color: black;
+  text-decoration: none;
   font-weight: bold;
 }
 
 .debate-text:hover {
+  text-decoration: none;
   color: black;
 }
 
@@ -258,14 +263,19 @@ ul {
   color: rgb(85, 85, 85);
 }
 
+.opinion-title:hover {
+  text-decoration: none;
+}
+
 .opinion-link {
+  text-decoration: none;
   color: black;
   line-height: 17px;
   line-height: 21px;
 }
 
 .opinion-link:hover {
-  color: #f72210;
+  color: hsl(5, 94%, 52%);
   text-decoration: none;
 }
 
@@ -314,7 +324,12 @@ ul {
   font-size: 14px;
 }
 
+.signup-link:hover {
+  text-decoration: none;
+}
+
 .signup-desc:hover {
+  text-decoration: none;
   color: black;
 }
 
@@ -325,7 +340,6 @@ ul {
 
 .magazine-date {
   bottom: 0;
-  color: #f72210;
   font-weight: bold;
   margin-top: -10px;
 }
@@ -334,11 +348,13 @@ ul {
   text-align: center;
   background-color: #f4f5f6;
   color: black;
+  text-decoration: none;
   font-weight: bold;
   font-size: 18px;
 }
 
 .magazine-first-link:hover {
+  text-decoration: none;
   color: black;
   background-color: rgb(167, 167, 167);
 }
@@ -355,23 +371,24 @@ ul {
 }
 
 .magazine-other-links {
-  color: #f72210;
   font-weight: bold;
   font-size: 12px;
 }
 
 .magazine-other-links:hover {
-  color: #f72210;
+  text-decoration: none;
+  color: hsl(5, 94%, 52%);
 }
 
 .magazine-other-links-2 {
   color: black;
   font-size: 20px;
   line-height: 22px;
+  text-decoration: none;
 }
 
 .magazine-other-links-2:hover {
-  color: black;
+  color: rgb(5, 5, 5);
 }
 
 .subscribe-2nd-image {
@@ -396,7 +413,7 @@ ul {
 
 .footer-subscribe-desc {
   font-size: 15px;
-  color: rgb(63, 63, 63);
+  color: rgb(46, 45, 45);
 }
 
 .footer-subscribe-container {
@@ -404,7 +421,6 @@ ul {
 }
 
 .footer-subscribe-button {
-  background-color: #f72210;
   color: white;
   font-weight: bold;
   border: none;
@@ -419,7 +435,6 @@ ul {
 .category-title {
   font-weight: bold;
   font-size: 1.3rem;
-  color: #f72210;
   text-decoration: none;
 }
 
@@ -429,10 +444,12 @@ ul {
 }
 
 .category-title:hover {
+  text-decoration: none;
   color: #f72210;
 }
 
 .category-links {
+  text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 22px;
@@ -440,7 +457,8 @@ ul {
 }
 
 .category-sidebar {
-  color: black;
+  text-decoration: none;
+  color: rgb(5, 5, 5);
   font-weight: bold;
   font-size: 16px;
   line-height: 0.4rem;
@@ -448,11 +466,11 @@ ul {
 
 .category-sidebar:hover {
   text-decoration: none;
-  color: #f72210;
+  color: rgb(243, 28, 9);
 }
 
 .category-links:hover {
-  color: black;
+  color: rgb(2, 2, 2);
 }
 
 .social-links {
@@ -464,7 +482,6 @@ ul {
 .footer-newsweek {
   font-family: "Alegreya", serif;
   font-size: 48px;
-  color: #f72210;
   font-weight: 800;
 }
 
@@ -481,6 +498,7 @@ ul {
 }
 
 .footer-navlinks:hover {
+  text-decoration: none;
   color: black;
 }
 
@@ -505,7 +523,6 @@ ul {
 }
 
 .footer-subscribe-title {
-  color: red;
   font-weight: bold;
   font-size: 15px;
 }
