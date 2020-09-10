@@ -110,7 +110,6 @@ ul {
 
 .navlinks:hover {
   color: rgb(197, 21, 5);
-  text-decoration: none;
 }
 
 .navlinks::after {
@@ -164,7 +163,6 @@ ul {
 }
 
 .features-img-link:hover {
-  text-decoration: none;
   color: rgb(247, 34, 16);
 }
 
@@ -199,7 +197,6 @@ ul {
 }
 
 .center-img-link:hover {
-  text-decoration: none;
   color: rgb(173, 173, 173);
   background-color: black;
 }
@@ -272,7 +269,6 @@ ul {
 
 .opinion-link:hover {
   color: hsl(5, 94%, 52%);
-  text-decoration: none;
 }
 
 .opinion-writer {
