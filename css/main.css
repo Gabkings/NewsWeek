@@ -82,7 +82,7 @@ ul {
   margin-left: 2px;
 }
 
-.red-color{
+.red-color {
   color: #f72210;
 }
 
@@ -209,9 +209,12 @@ ul {
 }
 
 .stories-link {
-  text-decoration: none;
   color: black;
   line-height: 20px;
+}
+
+.decoration-non {
+  text-decoration: none;
 }
 
 .debate {
@@ -231,13 +234,7 @@ ul {
 
 .debate-text {
   color: black;
-  text-decoration: none;
   font-weight: bold;
-}
-
-.debate-text:hover {
-  text-decoration: none;
-  color: black;
 }
 
 .debate-writer-image {
@@ -268,8 +265,7 @@ ul {
 }
 
 .opinion-link {
-  text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
   line-height: 17px;
   line-height: 21px;
 }
@@ -348,14 +344,11 @@ ul {
   text-align: center;
   background-color: #f4f5f6;
   color: black;
-  text-decoration: none;
   font-weight: bold;
   font-size: 18px;
 }
 
 .magazine-first-link:hover {
-  text-decoration: none;
-  color: black;
   background-color: rgb(167, 167, 167);
 }
 
@@ -371,24 +364,15 @@ ul {
 }
 
 .magazine-other-links {
+  text-decoration: none;
   font-weight: bold;
   font-size: 12px;
 }
 
-.magazine-other-links:hover {
-  text-decoration: none;
-  color: hsl(5, 94%, 52%);
-}
-
 .magazine-other-links-2 {
-  color: black;
+  color: rgb(2, 1, 1);
   font-size: 20px;
   line-height: 22px;
-  text-decoration: none;
-}
-
-.magazine-other-links-2:hover {
-  color: rgb(5, 5, 5);
 }
 
 .subscribe-2nd-image {
@@ -435,7 +419,6 @@ ul {
 .category-title {
   font-weight: bold;
   font-size: 1.3rem;
-  text-decoration: none;
 }
 
 .but-sub {
@@ -444,12 +427,10 @@ ul {
 }
 
 .category-title:hover {
-  text-decoration: none;
-  color: #f72210;
+  color: hsl(5, 94%, 52%);
 }
 
 .category-links {
-  text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 22px;
@@ -465,7 +446,6 @@ ul {
 }
 
 .category-sidebar:hover {
-  text-decoration: none;
   color: rgb(243, 28, 9);
 }
 
@@ -495,11 +475,11 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: rgb(110, 110, 110);
+  text-decoration: none;
 }
 
 .footer-navlinks:hover {
-  text-decoration: none;
-  color: black;
+  color: rgb(5, 4, 4);
 }
 
 .footer-li::after {
