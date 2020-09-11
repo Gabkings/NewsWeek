@@ -20,7 +20,7 @@
 }
 
 ul {
-  list-style: --text-decoration;
+  list-style: var(--features-img-link);
 }
 
 .top-navbar-date,
@@ -39,7 +39,7 @@ ul {
 }
 
 .navbar-3 a {
-  border: --text-decoration;
+  border: var(--features-img-link);
 }
 
 .pandemic-desc,
@@ -53,7 +53,7 @@ ul {
   color: white;
   opacity: 50%;
   font-size: 30px;
-  padding-left: --font-size-15;
+  padding-left: var(--font-size-15);
 }
 
 .weather,
@@ -61,8 +61,8 @@ ul {
 .location,
 .center-navbar-logo,
 .greater-than-navbar {
-  display: --text-decoration;
-  padding-left: --font-size-15;
+  display: var(--features-img-link);
+  padding-left: var(--font-size-15);
 }
 
 .front-navbar-logo {
@@ -74,7 +74,7 @@ ul {
 }
 
 .top-navbar-date {
-  font-size: --font-size-16;
+  font-size: var(--font-size-16);
 }
 
 .fa-water {
@@ -87,12 +87,12 @@ ul {
 }
 
 .top-navbar-signup {
-  border: --text-decoration;
+  border: var(--features-img-link);
   margin-left: 2px;
 }
 
 .red-color {
-  color: --red-color;
+  color: var(--red-color);
 }
 
 .right-navbar {
@@ -100,7 +100,7 @@ ul {
 }
 
 .right-navbar-link:hover {
-  text-decoration: --text-decoration;
+  text-decoration: var(--features-img-link);
 }
 
 .right-navbar-link:last-child:hover {
@@ -112,8 +112,8 @@ ul {
 }
 
 .navlinks-links {
-  text-decoration: --text-decoration;
-  color: --black-color;
+  text-decoration: var(--features-img-link);
+  color: var(--black-color);
 }
 
 .navlinks:hover {
@@ -123,7 +123,7 @@ ul {
 .navlinks::after {
   font-style: normal;
   content: "|";
-  padding-left: --font-size-15;
+  padding-left: 15px;
   font-weight: 100;
   font-size: 24px;
   color: rgb(184, 184, 184);
@@ -139,12 +139,12 @@ ul {
 
 .search {
   width: 4rem;
-  border: --text-decoration;
+  border: var(--features-img-link);
 }
 
 .row {
-  margin-right: ---font-size-15;
-  margin-left: ---font-size-15;
+  margin-right: -var(--font-size-15);
+  margin-left: -var(--font-size-15);
 }
 
 .c-vs {
@@ -175,51 +175,51 @@ ul {
 }
 
 .font-roboto {
-  font-size: --font-size-16;
+  font-size: var(--font-size-16);
 }
 
 .card-title-link {
   font-size: 24px;
-  color: --black-color;
+  color: var(--black-color);
   line-height: 1.4rem;
   display: block;
   margin-top: 1rem;
 }
 
 .card-title-link:hover {
-  color: --black-color;
+  color: var(--black-color);
 }
 
 .card-text {
   line-height: 20px;
-  font-size: --font-size-15;
+  font-size: var(--font-size-15);
 }
 
 .center-img-link {
   bottom: 0;
   left: 0;
   opacity: 0.9;
-  color: --black-color;
+  color: var(--black-color);
   font-size: 14px;
   background-color: #c2d4d7;
 }
 
 .center-img-link:hover {
   color: rgb(173, 173, 173);
-  background-color: --black-color;
+  background-color: var(--black-color);
 }
 
 .heros-of-panedemic {
-  display: --text-decoration;
+  display: var(--features-img-link);
 }
 
 .stories-link {
-  color: --black-color;
+  color: var(--black-color);
   line-height: 20px;
 }
 
 .decoration-non {
-  text-decoration: --text-decoration;
+  text-decoration: var(--features-img-link);
 }
 
 .debate {
@@ -238,7 +238,7 @@ ul {
 }
 
 .debate-text {
-  color: --black-color;
+  color: var(--black-color);
   font-weight: --font-wait;
 }
 
@@ -252,21 +252,21 @@ ul {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: --black-color;
-  border: --text-decoration;
+  background-color: var(--black-color);
+  border: var(--features-img-link);
 }
 
 .stories-link:hover {
-  color: --black-color;
+  color: var(--black-color);
 }
 
 .pandemic-desc {
-  font-size: --font-size-15;
+  font-size: var(--font-size-15);
   color: rgb(85, 85, 85);
 }
 
 .opinion-title:hover {
-  text-decoration: --text-decoration;
+  text-decoration: var(--features-img-link);
 }
 
 .opinion-link {
@@ -310,27 +310,27 @@ ul {
 
 .signup-desc {
   font-size: 12px;
-  color: --black-color;
+  color: var(--black-color);
   font-weight: --font-wait;
 }
 
 .card {
-  border: --text-decoration;
+  border: var(--features-img-link);
 }
 
 .travel {
   background-color: #c2d4d7;
-  color: --black-color;
+  color: var(--black-color);
   font-size: 14px;
 }
 
 .signup-link:hover {
-  text-decoration: --text-decoration;
+  text-decoration: var(--features-img-link);
 }
 
 .signup-desc:hover {
-  text-decoration: --text-decoration;
-  color: --black-color;
+  text-decoration: var(--features-img-link);
+  color: var(--black-color);
 }
 
 .magazine-first-img {
@@ -347,7 +347,7 @@ ul {
 .magazine-first-link {
   text-align: center;
   background-color: #f4f5f6;
-  color: --black-color;
+  color: var(--black-color);
   font-weight: --font-wait;
   font-size: 18px;
 }
@@ -364,11 +364,11 @@ ul {
 .magazine-cover {
   background-color: --red-color;
   color: white;
-  font-size: --font-size-16;
+  font-size: var(--font-size-16);
 }
 
 .magazine-other-links {
-  text-decoration: --text-decoration;
+  text-decoration: var(--features-img-link);
   font-weight: --font-wait;
   font-size: 12px;
 }
@@ -400,7 +400,7 @@ ul {
 }
 
 .footer-subscribe-desc {
-  font-size: --font-size-15;
+  font-size: var(--font-size-15);
   color: rgb(46, 45, 45);
 }
 
@@ -411,7 +411,7 @@ ul {
 .footer-subscribe-button {
   color: white;
   font-weight: --font-wait;
-  border: --text-decoration;
+  border: var(--features-img-link);
   cursor: pointer;
 }
 
@@ -426,7 +426,7 @@ ul {
 }
 
 .but-sub {
-  color: --black-color;
+  color: var(--black-color);
   font-weight: --font-wait;
 }
 
@@ -435,17 +435,17 @@ ul {
 }
 
 .category-links {
-  color: --black-color;
+  color: var(--black-color);
   font-weight: --font-wait;
   font-size: 22px;
   line-height: 1.4rem;
 }
 
 .category-sidebar {
-  text-decoration: --text-decoration;
+  text-decoration: var(--features-img-link);
   color: rgb(5, 5, 5);
   font-weight: --font-wait;
-  font-size: --font-size-16;
+  font-size: var(--font-size-16);
   line-height: 0.4rem;
 }
 
@@ -479,7 +479,7 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: rgb(110, 110, 110);
-  text-decoration: --text-decoration;
+  text-decoration: var(--features-img-link);
 }
 
 .footer-navlinks:hover {
@@ -508,7 +508,7 @@ ul {
 
 .footer-subscribe-title {
   font-weight: --font-wait;
-  font-size: --font-size-15;
+  font-size: var(--font-size-15);
 }
 
 .newsletter-img {
@@ -524,7 +524,7 @@ ul {
 @media only screen and (min-width: 992px) {
   .fa-bars,
   .front-navbar-logo {
-    display: --text-decoration;
+    display: var(--features-img-link);
   }
 
   .top-navbar-date,
@@ -591,7 +591,7 @@ ul {
   }
 
   .copyright {
-    padding-left: --font-size-15;
+    padding-left: var(--font-size-15);
   }
 }
 
@@ -625,6 +625,6 @@ ul {
 
 @media only screen and (max-width: 800px) {
   .navbar-3 {
-    display: --text-decoration;
+    display: var(--features-img-link);
   }
 }
