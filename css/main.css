@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --red-color: #f72210;
+  --black-color: #000;
+  --text-decoration: none;
+  --font-size-16: 16px;
+  --font-wait: bold;
+  --font-size-15: 15px;
+}
+
 .main {
   margin: auto;
   padding: 0;
@@ -11,7 +20,7 @@
 }
 
 ul {
-  list-style: none;
+  list-style: --text-decoration;
 }
 
 .top-navbar-date,
@@ -30,7 +39,7 @@ ul {
 }
 
 .navbar-3 a {
-  border: none;
+  border: --text-decoration;
 }
 
 .pandemic-desc,
@@ -44,7 +53,7 @@ ul {
   color: white;
   opacity: 50%;
   font-size: 30px;
-  padding-left: 15px;
+  padding-left: --font-size-15;
 }
 
 .weather,
@@ -52,8 +61,8 @@ ul {
 .location,
 .center-navbar-logo,
 .greater-than-navbar {
-  display: none;
-  padding-left: 15px;
+  display: --text-decoration;
+  padding-left: --font-size-15;
 }
 
 .front-navbar-logo {
@@ -65,7 +74,7 @@ ul {
 }
 
 .top-navbar-date {
-  font-size: 16px;
+  font-size: --font-size-16;
 }
 
 .fa-water {
@@ -78,12 +87,12 @@ ul {
 }
 
 .top-navbar-signup {
-  border: none;
+  border: --text-decoration;
   margin-left: 2px;
 }
 
 .red-color {
-  color: #f72210;
+  color: --red-color;
 }
 
 .right-navbar {
@@ -91,7 +100,7 @@ ul {
 }
 
 .right-navbar-link:hover {
-  text-decoration: none;
+  text-decoration: --text-decoration;
 }
 
 .right-navbar-link:last-child:hover {
@@ -103,9 +112,8 @@ ul {
 }
 
 .navlinks-links {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+  text-decoration: --text-decoration;
+  color: --black-color;
 }
 
 .navlinks:hover {
@@ -115,7 +123,7 @@ ul {
 .navlinks::after {
   font-style: normal;
   content: "|";
-  padding-left: 15px;
+  padding-left: --font-size-15;
   font-weight: 100;
   font-size: 24px;
   color: rgb(184, 184, 184);
@@ -131,19 +139,19 @@ ul {
 
 .search {
   width: 4rem;
-  border: none;
+  border: --text-decoration;
 }
 
 .row {
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: ---font-size-15;
+  margin-left: ---font-size-15;
 }
 
 .c-vs {
   width: 30px;
   height: 30px;
   text-align: center;
-  font-weight: bold;
+  font-weight: --font-wait;
   color: #f4f5f6;
   margin-top: -18px;
   z-index: 2;
@@ -167,51 +175,51 @@ ul {
 }
 
 .font-roboto {
-  font-size: 16px;
+  font-size: --font-size-16;
 }
 
 .card-title-link {
   font-size: 24px;
-  color: black;
+  color: --black-color;
   line-height: 1.4rem;
   display: block;
   margin-top: 1rem;
 }
 
 .card-title-link:hover {
-  color: black;
+  color: --black-color;
 }
 
 .card-text {
   line-height: 20px;
-  font-size: 15px;
+  font-size: --font-size-15;
 }
 
 .center-img-link {
   bottom: 0;
   left: 0;
   opacity: 0.9;
-  color: black;
+  color: --black-color;
   font-size: 14px;
   background-color: #c2d4d7;
 }
 
 .center-img-link:hover {
   color: rgb(173, 173, 173);
-  background-color: black;
+  background-color: --black-color;
 }
 
 .heros-of-panedemic {
-  display: none;
+  display: --text-decoration;
 }
 
 .stories-link {
-  color: black;
+  color: --black-color;
   line-height: 20px;
 }
 
 .decoration-non {
-  text-decoration: none;
+  text-decoration: --text-decoration;
 }
 
 .debate {
@@ -230,8 +238,8 @@ ul {
 }
 
 .debate-text {
-  color: black;
-  font-weight: bold;
+  color: --black-color;
+  font-weight: --font-wait;
 }
 
 .debate-writer-image {
@@ -244,21 +252,21 @@ ul {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: black;
-  border: none;
+  background-color: --black-color;
+  border: --text-decoration;
 }
 
 .stories-link:hover {
-  color: black;
+  color: --black-color;
 }
 
 .pandemic-desc {
-  font-size: 15px;
+  font-size: --font-size-15;
   color: rgb(85, 85, 85);
 }
 
 .opinion-title:hover {
-  text-decoration: none;
+  text-decoration: --text-decoration;
 }
 
 .opinion-link {
@@ -274,7 +282,7 @@ ul {
 .opinion-writer {
   font-size: 13px;
   color: rgb(66, 66, 66);
-  font-weight: bold;
+  font-weight: --font-wait;
 }
 
 .signup {
@@ -290,7 +298,7 @@ ul {
 }
 
 .magazine-p {
-  font-weight: bold;
+  font-weight: --font-wait;
   font-size: 24px;
   padding-bottom: 0;
 }
@@ -302,27 +310,27 @@ ul {
 
 .signup-desc {
   font-size: 12px;
-  color: black;
-  font-weight: bold;
+  color: --black-color;
+  font-weight: --font-wait;
 }
 
 .card {
-  border: none;
+  border: --text-decoration;
 }
 
 .travel {
   background-color: #c2d4d7;
-  color: black;
+  color: --black-color;
   font-size: 14px;
 }
 
 .signup-link:hover {
-  text-decoration: none;
+  text-decoration: --text-decoration;
 }
 
 .signup-desc:hover {
-  text-decoration: none;
-  color: black;
+  text-decoration: --text-decoration;
+  color: --black-color;
 }
 
 .magazine-first-img {
@@ -332,15 +340,15 @@ ul {
 
 .magazine-date {
   bottom: 0;
-  font-weight: bold;
+  font-weight: --font-wait;
   margin-top: -10px;
 }
 
 .magazine-first-link {
   text-align: center;
   background-color: #f4f5f6;
-  color: black;
-  font-weight: bold;
+  color: --black-color;
+  font-weight: --font-wait;
   font-size: 18px;
 }
 
@@ -354,14 +362,14 @@ ul {
 }
 
 .magazine-cover {
-  background-color: #f72210;
+  background-color: --red-color;
   color: white;
-  font-size: 16px;
+  font-size: --font-size-16;
 }
 
 .magazine-other-links {
-  text-decoration: none;
-  font-weight: bold;
+  text-decoration: --text-decoration;
+  font-weight: --font-wait;
   font-size: 12px;
 }
 
@@ -378,7 +386,7 @@ ul {
 
 .footer-subscibe {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: --font-wait;
 }
 
 .footer-subscriber {
@@ -392,7 +400,7 @@ ul {
 }
 
 .footer-subscribe-desc {
-  font-size: 15px;
+  font-size: --font-size-15;
   color: rgb(46, 45, 45);
 }
 
@@ -402,8 +410,8 @@ ul {
 
 .footer-subscribe-button {
   color: white;
-  font-weight: bold;
-  border: none;
+  font-weight: --font-wait;
+  border: --text-decoration;
   cursor: pointer;
 }
 
@@ -413,13 +421,13 @@ ul {
 }
 
 .category-title {
-  font-weight: bold;
+  font-weight: --font-wait;
   font-size: 1.3rem;
 }
 
 .but-sub {
-  color: black;
-  font-weight: bold;
+  color: --black-color;
+  font-weight: --font-wait;
 }
 
 .category-title:hover {
@@ -427,17 +435,17 @@ ul {
 }
 
 .category-links {
-  color: black;
-  font-weight: bold;
+  color: --black-color;
+  font-weight: --font-wait;
   font-size: 22px;
   line-height: 1.4rem;
 }
 
 .category-sidebar {
-  text-decoration: none;
+  text-decoration: --text-decoration;
   color: rgb(5, 5, 5);
-  font-weight: bold;
-  font-size: 16px;
+  font-weight: --font-wait;
+  font-size: --font-size-16;
   line-height: 0.4rem;
 }
 
@@ -471,7 +479,7 @@ ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: rgb(110, 110, 110);
-  text-decoration: none;
+  text-decoration: --text-decoration;
 }
 
 .footer-navlinks:hover {
@@ -499,8 +507,8 @@ ul {
 }
 
 .footer-subscribe-title {
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: --font-wait;
+  font-size: --font-size-15;
 }
 
 .newsletter-img {
@@ -516,7 +524,7 @@ ul {
 @media only screen and (min-width: 992px) {
   .fa-bars,
   .front-navbar-logo {
-    display: none;
+    display: --text-decoration;
   }
 
   .top-navbar-date,
@@ -583,7 +591,7 @@ ul {
   }
 
   .copyright {
-    padding-left: 15px;
+    padding-left: --font-size-15;
   }
 }
 
@@ -617,6 +625,6 @@ ul {
 
 @media only screen and (max-width: 800px) {
   .navbar-3 {
-    display: none;
+    display: --text-decoration;
   }
 }
