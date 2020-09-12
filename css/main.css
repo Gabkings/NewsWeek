@@ -4,23 +4,8 @@
   box-sizing: border-box;
 }
 
-:root {
-  --red-color: #f72210;
-  --black-color: #000;
-  --text-decoration: none;
-  --font-size-16: 16px;
-  --font-wait: bold;
-  --font-size-15: 15px;
-}
-
 .main {
-  margin: auto;
-  padding: 0;
   max-width: 1310px;
-}
-
-ul {
-  list-style: var(--features-img-link);
 }
 
 .top-navbar-date,
@@ -38,10 +23,6 @@ ul {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.navbar-3 a {
-  border: var(--features-img-link);
-}
-
 .pandemic-desc,
 .opinion-writer,
 .footer-subscribe-desc,
@@ -53,7 +34,7 @@ ul {
   color: white;
   opacity: 50%;
   font-size: 30px;
-  padding-left: var(--font-size-15);
+  padding-left: 15px;
 }
 
 .weather,
@@ -61,8 +42,8 @@ ul {
 .location,
 .center-navbar-logo,
 .greater-than-navbar {
-  display: var(--features-img-link);
-  padding-left: var(--font-size-15);
+  display: none;
+  padding-left: 15px;
 }
 
 .front-navbar-logo {
@@ -74,7 +55,7 @@ ul {
 }
 
 .top-navbar-date {
-  font-size: var(--font-size-16);
+  font-size: 16px;
 }
 
 .fa-water {
@@ -86,13 +67,13 @@ ul {
   font-size: 20px;
 }
 
-.top-navbar-signup {
-  border: var(--features-img-link);
-  margin-left: 2px;
+.redColor {
+  color: #f72210;
 }
 
-.red-color {
-  color: var(--red-color);
+.top-navbar-signup {
+  border: none;
+  margin-left: 2px;
 }
 
 .right-navbar {
@@ -100,24 +81,24 @@ ul {
 }
 
 .right-navbar-link:hover {
-  text-decoration: var(--features-img-link);
+  text-decoration: none;
 }
 
 .right-navbar-link:last-child:hover {
-  color: hsl(5, 94%, 52%);
+  color: #f72210;
 }
 
 .bg-red {
-  background-color: rgb(247, 34, 16);
+  background-color: #f72210;
 }
 
 .navlinks-links {
-  text-decoration: var(--features-img-link);
-  color: var(--black-color);
+  font-weight: 600;
 }
 
 .navlinks:hover {
   color: rgb(197, 21, 5);
+  text-decoration: none;
 }
 
 .navlinks::after {
@@ -129,39 +110,9 @@ ul {
   color: rgb(184, 184, 184);
 }
 
-.navbar-3 .navlinks::after {
-  content: " ";
-}
-
-.navbar-3 ul:not(:first-child) {
-  color: #666;
-}
-
 .search {
   width: 4rem;
-  border: var(--features-img-link);
-}
-
-.row {
-  margin-right: -var(--font-size-15);
-  margin-left: -var(--font-size-15);
-}
-
-.c-vs {
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  font-weight: --font-wait;
-  color: #f4f5f6;
-  margin-top: -18px;
-  z-index: 2;
-  padding-top: 5px;
-}
-
-.image-container {
-  position: relative;
-  padding: 0%;
-  margin: 0%;
+  border: none;
 }
 
 .features-img-link {
@@ -170,56 +121,48 @@ ul {
   opacity: 0.9;
 }
 
-.features-img-link:hover {
-  color: rgb(247, 34, 16);
-}
-
 .font-roboto {
-  font-size: var(--font-size-16);
+  font-size: 16px;
 }
 
 .card-title-link {
   font-size: 24px;
-  color: var(--black-color);
+  color: black;
   line-height: 1.4rem;
   display: block;
   margin-top: 1rem;
 }
 
 .card-title-link:hover {
-  color: var(--black-color);
+  color: black;
 }
 
 .card-text {
   line-height: 20px;
-  font-size: var(--font-size-15);
+  font-size: 15px;
 }
 
 .center-img-link {
   bottom: 0;
   left: 0;
   opacity: 0.9;
-  color: var(--black-color);
+  color: black;
   font-size: 14px;
   background-color: #c2d4d7;
 }
 
 .center-img-link:hover {
+  text-decoration: none;
   color: rgb(173, 173, 173);
-  background-color: var(--black-color);
+  background-color: black;
 }
 
 .heros-of-panedemic {
-  display: var(--features-img-link);
+  display: none;
 }
 
 .stories-link {
-  color: var(--black-color);
   line-height: 20px;
-}
-
-.decoration-non {
-  text-decoration: var(--features-img-link);
 }
 
 .debate {
@@ -233,13 +176,8 @@ ul {
 }
 
 .debate-image {
-  width: 65px;
-  height: 65px;
-}
-
-.debate-text {
-  color: var(--black-color);
-  font-weight: --font-wait;
+  width: 95px;
+  height: 95px;
 }
 
 .debate-writer-image {
@@ -252,37 +190,37 @@ ul {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: var(--black-color);
-  border: var(--features-img-link);
+  background-color: black;
+  border: none;
 }
 
 .stories-link:hover {
-  color: var(--black-color);
+  color: black;
 }
 
 .pandemic-desc {
-  font-size: var(--font-size-15);
+  font-size: 15px;
   color: rgb(85, 85, 85);
 }
 
 .opinion-title:hover {
-  text-decoration: var(--features-img-link);
+  text-decoration: none;
 }
 
 .opinion-link {
-  color: rgb(0, 0, 0);
   line-height: 17px;
   line-height: 21px;
 }
 
 .opinion-link:hover {
-  color: hsl(5, 94%, 52%);
+  color: #f72210;
+  text-decoration: none;
 }
 
 .opinion-writer {
   font-size: 13px;
   color: rgb(66, 66, 66);
-  font-weight: --font-wait;
+  font-weight: bold;
 }
 
 .signup {
@@ -298,39 +236,9 @@ ul {
 }
 
 .magazine-p {
-  font-weight: --font-wait;
+  font-weight: bold;
   font-size: 24px;
   padding-bottom: 0;
-}
-
-.signup-img {
-  width: 32px;
-  height: 28px;
-}
-
-.signup-desc {
-  font-size: 12px;
-  color: var(--black-color);
-  font-weight: --font-wait;
-}
-
-.card {
-  border: var(--features-img-link);
-}
-
-.travel {
-  background-color: #c2d4d7;
-  color: var(--black-color);
-  font-size: 14px;
-}
-
-.signup-link:hover {
-  text-decoration: var(--features-img-link);
-}
-
-.signup-desc:hover {
-  text-decoration: var(--features-img-link);
-  color: var(--black-color);
 }
 
 .magazine-first-img {
@@ -340,15 +248,15 @@ ul {
 
 .magazine-date {
   bottom: 0;
-  font-weight: --font-wait;
+  color: hsl(5, 94%, 52%);
+  font-weight: bold;
   margin-top: -10px;
 }
 
 .magazine-first-link {
   text-align: center;
   background-color: #f4f5f6;
-  color: var(--black-color);
-  font-weight: --font-wait;
+  font-weight: bold;
   font-size: 18px;
 }
 
@@ -362,21 +270,38 @@ ul {
 }
 
 .magazine-cover {
-  background-color: --red-color;
+  background-color: #f72210;
   color: white;
-  font-size: var(--font-size-16);
+  font-size: 16px;
+}
+
+.textRedNone {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .magazine-other-links {
-  text-decoration: var(--features-img-link);
-  font-weight: --font-wait;
+  font-weight: bold;
   font-size: 12px;
 }
 
+.textBlack {
+  text-decoration: none;
+  color: black;
+}
+
 .magazine-other-links-2 {
-  color: rgb(2, 1, 1);
   font-size: 20px;
   line-height: 22px;
+}
+
+.signup-img {
+  width: 32px;
+  height: 28px;
+}
+
+.magazine-other-links-2:hover {
+  color: black;
 }
 
 .subscribe-2nd-image {
@@ -386,7 +311,7 @@ ul {
 
 .footer-subscibe {
   font-size: 24px;
-  font-weight: --font-wait;
+  font-weight: bold;
 }
 
 .footer-subscriber {
@@ -400,8 +325,8 @@ ul {
 }
 
 .footer-subscribe-desc {
-  font-size: var(--font-size-15);
-  color: rgb(46, 45, 45);
+  font-size: 15px;
+  color: rgb(63, 63, 63);
 }
 
 .footer-subscribe-container {
@@ -409,9 +334,10 @@ ul {
 }
 
 .footer-subscribe-button {
+  background-color: #f72210;
   color: white;
-  font-weight: --font-wait;
-  border: var(--features-img-link);
+  font-weight: 600;
+  border: none;
   cursor: pointer;
 }
 
@@ -421,40 +347,28 @@ ul {
 }
 
 .category-title {
-  font-weight: --font-wait;
+  font-weight: bold;
   font-size: 1.3rem;
 }
 
-.but-sub {
-  color: var(--black-color);
-  font-weight: --font-wait;
-}
-
-.category-title:hover {
-  color: hsl(5, 94%, 52%);
-}
-
 .category-links {
-  color: var(--black-color);
-  font-weight: --font-wait;
+  font-weight: bold;
   font-size: 22px;
   line-height: 1.4rem;
 }
 
 .category-sidebar {
-  text-decoration: var(--features-img-link);
-  color: rgb(5, 5, 5);
-  font-weight: --font-wait;
-  font-size: var(--font-size-16);
+  font-weight: bold;
+  font-size: 16px;
   line-height: 0.4rem;
 }
 
 .category-sidebar:hover {
-  color: rgb(243, 28, 9);
+  color: #f72210;
 }
 
 .category-links:hover {
-  color: rgb(2, 2, 2);
+  color: black;
 }
 
 .social-links {
@@ -466,6 +380,7 @@ ul {
 .footer-newsweek {
   font-family: "Alegreya", serif;
   font-size: 48px;
+  color: #f72210;
   font-weight: 800;
 }
 
@@ -475,15 +390,13 @@ ul {
   color: rgb(99, 99, 99);
 }
 
+ul {
+  list-style: none;
+}
+
 .footer-navlinks {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  color: rgb(110, 110, 110);
-  text-decoration: var(--features-img-link);
-}
-
-.footer-navlinks:hover {
-  color: rgb(5, 4, 4);
 }
 
 .footer-li::after {
@@ -507,92 +420,9 @@ ul {
 }
 
 .footer-subscribe-title {
-  font-weight: --font-wait;
-  font-size: var(--font-size-15);
-}
-
-.newsletter-img {
-  content: "";
-  width: 100%;
-  display: block;
-  position: relative;
-  height: 500px;
-  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center / cover;
-  padding: 60px 0;
-}
-
-@media only screen and (min-width: 992px) {
-  .fa-bars,
-  .front-navbar-logo {
-    display: var(--features-img-link);
-  }
-
-  .top-navbar-date,
-  .center-navbar-logo {
-    display: block;
-  }
-
-  .right-navbar {
-    align-items: flex-end;
-  }
-
-  .footer-subscribe-main-container {
-    flex-direction: row;
-  }
-
-  .newsletter-desc {
-    height: 302px;
-  }
-
-  .newsletter-img {
-    width: 190px;
-    display: block;
-    position: relative;
-    height: 302px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .footer-subscribe-container {
-    flex-direction: row;
-    max-width: 820px;
-    max-height: 302px;
-  }
-
-  .footer-newsletter-container {
-    max-width: 416px;
-    max-height: 302px;
-  }
-
-  .heros-of-panedemic {
-    display: block;
-  }
-
-  .newsletter-img {
-    width: 190px;
-    display: block;
-    position: relative;
-  }
-
-  .newsletter-desc {
-    position: relative;
-    width: 226px;
-  }
-
-  .footer-social {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .footer-social-copyright {
-    flex-direction: row;
-    align-items: flex-end;
-  }
-
-  .copyright {
-    padding-left: var(--font-size-15);
-  }
+  color: red;
+  font-weight: 500;
+  font-size: 15px;
 }
 
 @media (min-width: 576px) {
@@ -623,8 +453,88 @@ ul {
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .navbar-3 {
-    display: var(--features-img-link);
+.newsletter-img {
+  content: "";
+  width: 100%;
+  display: block;
+  position: relative;
+  height: 500px;
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") no-repeat scroll center / cover;
+  padding: 60px 0;
+}
+
+@media (min-width: 768px) {
+  .footer-subscribe-container {
+    flex-direction: row;
+    max-width: 820px;
+    max-height: 302px;
+  }
+
+  .footer-newsletter-container {
+    max-width: 416px;
+    max-height: 302px;
+  }
+
+  .heros-of-panedemic {
+    display: block;
+  }
+
+  .newsletter-img {
+    width: 190px;
+    display: block;
+    position: relative;
+    height: 200px;
+  }
+
+  .newsletter-desc {
+    position: relative;
+    width: 226px;
+    height: 200px;
+  }
+
+  .footer-social {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-social-copyright {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .copyright {
+    padding-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .fa-bars,
+  .front-navbar-logo {
+    display: none;
+  }
+
+  .top-navbar-date,
+  .center-navbar-logo {
+    display: block;
+  }
+
+  .right-navbar {
+    align-items: flex-end;
+  }
+
+  .footer-subscribe-main-container {
+    flex-direction: row;
+  }
+
+  .newsletter-desc {
+    height: 302px;
+  }
+
+  .newsletter-img {
+    width: 190px;
+    display: block;
+    position: relative;
+    height: 302px;
   }
 }
