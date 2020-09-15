@@ -2,6 +2,9 @@
 # Project Name
 ## Newsweek
 
+## Live Demo
+[Newsweek](https://raw.githack.com/Gabkings/NewsWeek/master/index.html)
+
 ![Screenshot at 2020-09-09 01-26-44](https://user-images.githubusercontent.com/33205781/92533823-f4117b00-f23b-11ea-9ab9-162dc784ae3c.png)
 
 
